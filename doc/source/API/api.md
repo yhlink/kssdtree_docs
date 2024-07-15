@@ -1,4 +1,4 @@
-# API Tutorial
+# shuffle function
 ```
 def shuffle(k=None, s=None, l=None, o=None):
     """
@@ -19,8 +19,9 @@ def shuffle(k=None, s=None, l=None, o=None):
             
     """
     return True
-
-
+```
+# sketch function
+```
 def sketch(shuf_file=None, genome_files=None, output=None, set_opt=None):
     """
     
@@ -49,8 +50,9 @@ def sketch(shuf_file=None, genome_files=None, output=None, set_opt=None):
            
     """
     return True
-
-
+```
+# dist function
+```
 def dist(genome_sketch=None, output=None, flag=None):
     """
     
@@ -72,8 +74,9 @@ def dist(genome_sketch=None, output=None, flag=None):
            
     """
     return True
-
-
+```
+# retrieve function
+```
 def retrieve(database=None, genome_sketch=None, output=None, N=None, method=None):
     """
     
@@ -96,7 +99,9 @@ def retrieve(database=None, genome_sketch=None, output=None, N=None, method=None
     """
     return True
 
-
+```
+# build function
+```
 def build(phylip=None, output=None, method=None):
     """
     
@@ -119,7 +124,9 @@ def build(phylip=None, output=None, method=None):
     """
     return True
 
-
+```
+# visualize function
+```
 def visualize(newick=None, taxonomy=None, mode=None):
     """
     
@@ -143,8 +150,9 @@ def visualize(newick=None, taxonomy=None, mode=None):
 
     """
     return True
-
-
+```
+# subtract function
+```
 def subtract(ref_sketch=None, genome_sketch=None, output=None):
     """
 
@@ -164,8 +172,10 @@ def subtract(ref_sketch=None, genome_sketch=None, output=None):
             
     """
     return True
+```
 
-
+# quick function
+```
 def quick(shuf_file=None, genome_files=None, output=None, reference=None, database=None, method=None, mode=None,
           N=None):
     """
@@ -195,6 +205,5 @@ def quick(shuf_file=None, genome_files=None, output=None, reference=None, databa
             
     """
     return True
-
 ```
 
