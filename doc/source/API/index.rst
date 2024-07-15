@@ -1,4 +1,4 @@
-Functions
+API Usage
 ================
 
 .. toctree::
