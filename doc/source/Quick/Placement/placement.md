@@ -4,6 +4,7 @@ The unassembled prokaryotic genome ('PROK1') can be downloaded from https://zeno
 Or use your own data, here we suppose your genome path is 'PROK1'. Or directly take a genome file 'PROK1/GCF_001228905.1_7038_3_46_genomic.fna.gz' as input.
 Note: 'PROK1' should be a folder, and the folder should contain only genome files (*.fasta or *.fastq).
 
+
 # One-step implementation (Recommended)
 ```
 import kssdtree
