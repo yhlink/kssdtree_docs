@@ -1,4 +1,4 @@
-# One-step implementation (Instructions)
+# One-step implementation (Instruction)
 ```
 def quick(shuf_file, genome_files, output, reference=None, database=None, method='nj', mode='r', N=0):
 # Parameters shuf_file, genome_files, and output are required, and the other parameters are optional.
