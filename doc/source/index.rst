@@ -18,7 +18,6 @@ Kssdtree also provides one-stop tree construction and visualization. It can hand
 .. toctree::
    :maxdepth: 1
 
-   Instruct/index
    Install/index
    Quick/index
    API/index
