@@ -1,4 +1,4 @@
-Functions
+# API Tutorial
 ```
 def shuffle(k=None, s=None, l=None, o=None):
     """
