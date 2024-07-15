@@ -1,7 +1,4 @@
-API Tutorial
-================
+.. toctree::
+   :maxdepth: 1
 
-.. automodule:: kssdtree
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   api

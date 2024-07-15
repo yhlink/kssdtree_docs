@@ -1,3 +1,4 @@
+Functions
 ```
 def shuffle(k=None, s=None, l=None, o=None):
     """
