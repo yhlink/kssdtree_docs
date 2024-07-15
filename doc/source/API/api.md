@@ -191,7 +191,18 @@ def quick(shuf_file=None, genome_files=None, output=None, reference=None, databa
            method (str): Method for constructing the tree, either 'nj' (NJ) or 'dnj' (DNJ). Default is 'nj'.
            mode (str): Visualization mode, either 'r' (rectangle) or 'c' (circle). Default is 'r'.
            N (int): Maximum number of nearest reference genomes. Default is 0 for routine and reference subtraction pipelines. For GTDB-based phylogenetic placement pipeline should set N > 0.
-
+       
+       Instructions:
+           Parameters shuf_file, genome_files, and output are required, and the other parameters are optional.
+           if reference is None and database is None:
+           # Routine Pipeline
+           elif reference is not None and database is None:
+           # Reference Subtraction Pipeline
+           elif reference is None and database == 'gtdbr214':
+           # GTDB-based Phylogenetic Placement Pipeline
+           else:
+           # Pipeline Error
+       
        Returns:
            bool: True
 
