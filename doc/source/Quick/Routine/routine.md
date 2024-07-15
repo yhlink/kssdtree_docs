@@ -31,4 +31,3 @@ kssdtree.visualize(newick='ES29.newick', mode='r')
 # Or visualize tree in circle mode
 kssdtree.visualize(newick='ES29.newick', mode='c')
 ```
-
