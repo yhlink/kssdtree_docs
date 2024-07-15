@@ -8,6 +8,7 @@ Note: 'ES29' should be a folder, not a file. The folder should contain at least 
 ```
 import kssdtree
 kssdtree.quick(shuf_file='L3K10.shuf', genome_files='ES29', output='ES29.newick',  method='nj', mode='r')
+```
 
 # Multi-step implementation
 ```
