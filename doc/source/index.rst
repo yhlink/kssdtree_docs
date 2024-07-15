@@ -5,6 +5,7 @@
 
 Kssdtree
 ================================
+
 Welcome to the Kssdtree documentation!
 
 Kssdtree is a versatile Python package for phylogenetic analysis, offering three distinct pipelines: the routine pipeline, the reference subtraction pipeline, and the phylogenetic placement pipeline.
@@ -17,6 +18,8 @@ Kssdtree also provides one-stop tree construction and visualization. It can hand
 .. toctree::
    :maxdepth: 1
 
+   Instruct/index
    Install/index
    Quick/index
    API/index
+
