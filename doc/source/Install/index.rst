@@ -1,4 +1,4 @@
-Installation Tutorial
+Installation
 =================================
  
 .. toctree::
