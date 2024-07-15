@@ -8,7 +8,7 @@ Kssdtree
 
 Welcome to the Kssdtree documentation!
 
-Kssdtree is a versatile Python package for phylogenetic analysis, offering three distinct pipelines: the routine pipeline, the reference subtraction pipeline, and the phylogenetic placement pipeline.
+Kssdtree is a versatile Python package for phylogenetic analysis, offering three distinct pipelines: the routine pipeline, the reference subtraction pipeline, and the GTDB-based phylogenetic placement pipeline.
 
 Routine Pipeline: A general-purpose tool for phylogenetic analysis of user genomic data.
 Reference Subtraction Pipeline: Designed for population-level phylogenetic analysis.
