@@ -2,7 +2,7 @@ Quick Tutorial
 ================
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 1
 
    Routine/index
    Subtract/index
