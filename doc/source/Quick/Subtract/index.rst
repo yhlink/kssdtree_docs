@@ -2,6 +2,6 @@ Reference Subtraction Pipeline
 =================================
  
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 0
    
    subtract

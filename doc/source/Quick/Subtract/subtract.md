@@ -13,7 +13,8 @@ kssdtree.quick(shuf_file='L3K10.shuf', genome_files='HG43', output='HG43.newick'
 ```
 import kssdtree
 
-# Step1、Sketch the human reference genome ('hg38.fa.gz') and 43 individual genomes ('HG43') kssdtree.sketch(shuf_file='L3K10.shuf', genome_files='hg38.fa.gz', output='Ref_sketch', set_opt=True)
+# Step1、Sketch the human reference genome ('hg38.fa.gz') and 43 individual genomes ('HG43') 
+kssdtree.sketch(shuf_file='L3K10.shuf', genome_files='hg38.fa.gz', output='Ref_sketch', set_opt=True)
 kssdtree.sketch(shuf_file='L3K10.shuf', genome_files='HG43', output='HG43_sketch', set_opt=True)
 
 # Step2、Subtract reference sketches (Ref_sketch) from input sketches (HG43_sketch)
