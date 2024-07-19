@@ -1,4 +1,4 @@
-Kssdtree require the Python 3 environment and the dependent packages `pandas`, `pyqt5`, `ete3`, and `requests`. If Kssdtree is installed using the pip command, these dependencies will be installed automatically. For Windows, we recommend to use Python 3.6 version. For MacOS, we recommend to use Python 3.8 or higher version.
+Kssdtree requires the Python 3 environment and the dependent packages `pandas`, `pyqt5`, `ete3`, and `requests`. If Kssdtree is installed using the pip command, these dependencies will be installed automatically. For MacOS, it requires Python 3.8 or higher version. For Windows, it requires Python 3.6 version and the installation of the gzip tool for sequence decompression.
 # Linux
 ```
 pip install kssdtree
