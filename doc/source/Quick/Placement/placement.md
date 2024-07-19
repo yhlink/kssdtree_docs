@@ -17,12 +17,12 @@ kssdtree.quick(shuf_file='L3K9.shuf', genome_files='PROK1', output='PROK31', dat
 ```
 import kssdtree
 
-# Step1、Sketch the query genomes 
+# Step1. Sketch the query genomes 
 kssdtree.sketch(shuf_file='L3K9.shuf', genome_files='PROK1', output='PROK1_sketch', set_opt=True)
 
-# Step2、Retrieve N closest genomes from the remote gtdbr214 database for each of the query genomes and compute the distance matrix and construct the phylogenetic tree. It will create 'output.newick' and 'output_accession_taxonomy.txt' in the output folder (e.g., ‘PROK31’ here).
+# Step2. Retrieve N closest genomes from the remote gtdbr214 database for each of the query genomes and compute the distance matrix and construct the phylogenetic tree. It will create 'output.newick' and 'output_accession_taxonomy.txt' in the output folder (e.g., ‘PROK31’ here).
 kssdtree.retrieve(database='gtdbr214', genome_sketch='PROK1_sketch', output='PROK31', N=30, method='nj')
 
-# Step3、Visualize tree 
+# Step3. Visualize tree 
 kssdtree.visualize(newick='./PROK31/output.newick', taxonomy='./PROK31/output_accession_taxonomy.txt', mode='r')
 ```

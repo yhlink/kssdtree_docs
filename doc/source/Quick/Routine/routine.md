@@ -13,20 +13,20 @@ kssdtree.quick(shuf_file='L3K10.shuf', genome_files='ES29', output='ES29.newick'
 # Multi-step implementation
 ```
 import kssdtree
-# Step1、Sketch 29 E.coli/Shigella genomes ('ES29') using k-mer length of 20 and 4,096 fold dimensionality reduction ( imposed by the parameter file L3K10.shuf)
+# Step1. Sketch 29 E.coli/Shigella genomes ('ES29') using k-mer length of 20 and 4,096 fold dimensionality reduction ( imposed by the parameter file L3K10.shuf)
 kssdtree.sketch(shuf_file='L3K10.shuf', genome_files='ES29', output='ES29_sketch')
 
-# Step2、Compute the pairwise distance matrix in a NJ compatible format
+# Step2. Compute the pairwise distance matrix in a NJ compatible format
 kssdtree.dist(genome_sketch='ES29_sketch', output='ES29.phylip', flag=0)
 # Or in a DNJ compatible format (no diagonal elements)
 kssdtree.dist(genome_sketch='ES29_sketch', output='ES29.phylip', flag=1)
 
-# Step3、Construct tree with NJ
+# Step3. Construct tree with NJ
 kssdtree.build(phylip='ES29.phylip', output='ES29.newick', method='nj')
 # Or with DNJ
 kssdtree.build(phylip='ES29.phylip', output='ES29.newick', method='dnj')
 
-# Step4、Visualize tree in rectangle mode
+# Step4. Visualize tree in rectangle mode
 kssdtree.visualize(newick='ES29.newick', mode='r')
 # Or visualize tree in circle mode
 kssdtree.visualize(newick='ES29.newick', mode='c')

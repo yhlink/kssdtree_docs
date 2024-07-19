@@ -13,19 +13,19 @@ kssdtree.quick(shuf_file='L3K10.shuf', genome_files='HG43', output='HG43.newick'
 ```
 import kssdtree
 
-# Step1、Sketch the human reference genome ('hg38.fa.gz') and 43 individual genomes ('HG43') 
+# Step1. Sketch the human reference genome ('hg38.fa.gz') and 43 individual genomes ('HG43') 
 kssdtree.sketch(shuf_file='L3K10.shuf', genome_files='hg38.fa.gz', output='Ref_sketch', set_opt=True)
 kssdtree.sketch(shuf_file='L3K10.shuf', genome_files='HG43', output='HG43_sketch', set_opt=True)
 
-# Step2、Subtract reference sketches (Ref_sketch) from input sketches (HG43_sketch)
+# Step2. Subtract reference sketches (Ref_sketch) from input sketches (HG43_sketch)
 kssdtree.subtract(ref_sketch='Ref_sketch', genome_sketch='HG43_sketch', output='HG43_sub_sketch')
 
-# Step3、Compute the pairwise distance matrix in a NJ compatible format
+# Step3. Compute the pairwise distance matrix in a NJ compatible format
 kssdtree.dist(genome_sketch='HG43_sub_sketch', output='HG43.phylip', flag=0)
 
-# Step4、Construct tree with NJ
+# Step4. Construct tree with NJ
 kssdtree.build(phylip='HG43.phylip', output='HG43.newick', method='nj')
 
-# Step5、Visualize tree 
+# Step5. Visualize tree 
 kssdtree.visualize(newick='HG43.newick', mode='r')
 ```
