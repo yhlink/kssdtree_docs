@@ -2,7 +2,7 @@ API Usage
 ================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 0
 
    api
 

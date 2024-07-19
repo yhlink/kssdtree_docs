@@ -16,7 +16,7 @@ GTDB-based Phylogenetic Placement Pipeline: Facilitates the search for similar g
 Kssdtree also provides one-stop tree construction and visualization. It can handle DNA sequences in both fasta and fastq formats, whether gzipped or not. Additionally, Kssdtree is compatible with multiple platforms (Linux, MacOS, and Windows) and can be run using Jupyter notebooks.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 0
 
    Install/index
    Quick/index
