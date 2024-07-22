@@ -9,7 +9,6 @@
 project = 'Kssdtree'
 copyright = '2024, Hang Yang'
 author = 'Hang Yang'
-release = 'v1.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
